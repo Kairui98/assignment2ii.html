@@ -1,0 +1,63 @@
+body{
+    padding:5px;
+    margin:5px;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.grid-head {
+  background-image: url('../img/banner.jpg');
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+	opacity; 1.5;
+
+}
+
+.grid-head{
+    text-align: center;
+    padding-top: 95px;
+}
+
+.grid-head h1{
+    font-size: 60px;
+	color:white;
+}
+
+.grid-head h2{
+	font-size: 90px;
+	padding-bottom: 20px; 
+	color: white;
+	font-weight: 600;
+
+}
+
+
+.grid-head p{
+	padding-left:150px;
+    padding-right:150px;
+    padding-bottom: 40px;
+    color:white;
+    font-weight:500;
+}
+
+
+
+.container h4{
+    font-size: 28px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px;
+column-gap: 20px;
+
+}
